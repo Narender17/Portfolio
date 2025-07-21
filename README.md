@@ -4,7 +4,9 @@ This portfolio highlights my skills, projects, and passion for development. It i
 ## Screen-Shot
 <img width="1920" height="1080" alt="Screenshot 2025-07-21 101313" src="https://github.com/user-attachments/assets/e840d8e3-a686-493f-99f4-583a6530da2f" /><br>
 Landing page with personal introduction
+
 <img width="1920" height="1020" alt="Screenshot 2025-07-21 101336" src="https://github.com/user-attachments/assets/31f1e1c3-0fef-4f3c-81c4-df8520f6842b" /><br>
+
 Portfolio projects dynamically rendered from backend
 ## 🚀 Features
 ⚙️ Built with HTML, CSS, and JavaScript – A fully hand-coded and responsive portfolio.<br>
