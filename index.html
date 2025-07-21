@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <button id="close-sidebar" title="Close Sidebar" class="sidebar-arrow-btn" style="position: absolute; top: 10px; right: 10px;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#232336"/><path d="M15.5 12L10.5 7V17L15.5 12Z" fill="#fff"/></svg></button>
+    <div class="profile-section">
+      <img src="WhatsApp Image 2025-03-05 at 1.40.58 PM.jpeg" alt="Narender Kumar" class="profile-pic">
+    </div>
+    <nav class="sidebar-nav">
+      <a href="#home" class="sidebar-link">Home</a>
+      <a href="#about" class="sidebar-link">About</a>
+      <a href="#skills" class="sidebar-link">Skills</a>
+      <a href="#projects" class="sidebar-link">Projects</a>
+      <a href="#contact" class="sidebar-link">Contact</a>
+    </nav>
+    <div class="sidebar-social">
+      <a href="https://www.linkedin.com/in/narender-kumar17/" title="LinkedIn" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn"></a>
+      <a href="https://github.com/Narender17" title="GitHub" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"></a>
+      <a href="https://www.facebook.com/princenarender.kumar.9" title="Facebook" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" alt="Facebook"></a>
+      <a href="https://www.instagram.com/prince_narender_kumar__/" title="Instagram" target="_blank"><i class="bi bi-instagram" style="font-size: 2rem;"></i></a>
+    </div>
+  </aside>
+  <button id="open-sidebar" title="Open Sidebar" class="sidebar-arrow-btn" style="position: fixed; top: 20px; right: 20px; display: none; z-index: 1000;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#232336"/><path d="M8.5 12L13.5 7V17L8.5 12Z" fill="#fff"/></svg></button>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-content">
+        <h1>Hi 👋, I'm</h1>
+        <h2 class="typing-text"></h2>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+          <a href="narender kumar resume (3).pdf" class="btn btn-secondary" id="download-resume" download>My Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-flex">
+          <div class="about-photo">
+            <img src="WhatsApp Image 2025-03-05 at 1.40.58 PM.jpeg" alt="Narender Kumar" class="about-profile-pic">
+          </div>
+          <div class="about-text">
+            <p>I'm a passionate and self-motivated IT enthusiast with a strong foundation in programming, web development, and problem-solving. As a recent graduate, I am eager to apply my skills in real-world projects and continuously learn emerging technologies. I enjoy building creative and efficient solutions and am always ready to take on new challenges in the tech world.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">HTML</div>
+          <div class="skill-card">CSS</div>
+          <div class="skill-card">JavaScript</div>
+          <div class="skill-card">Python</div>
+          <div class="skill-card">Java</div>
+          <div class="skill-card">C++</div>
+          <div class="skill-card">SQL</div>
+          <div class="skill-card">Web Development</div>
+          <div class="skill-card">AWS</div>
+          <div class="skill-card">MySQL</div>
+          <div class="skill-card">Machine Learning</div>
+          <div class="skill-card">Artificial Intelligence</div>
+          <div class="skill-card">Data Structures</div>
+          <div class="skill-card">Prompt Engineering</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Project One</h3>
+            <p>A brief description of your project goes here.</p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+          <div class="project-card">
+            <h3>Project Two</h3>
+            <p>A brief description of your project goes here.</p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <form class="contact-form" id="contact-form">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <div id="form-message" style="margin-top:1rem;"></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Narender Kumar. All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html> 
